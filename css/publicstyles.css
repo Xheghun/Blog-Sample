@@ -1,0 +1,125 @@
+.banner{
+    font-weight: 300;
+    font-size: 50px;
+}
+.img-circle{
+    border-radius: 100%;
+}
+.banner:hover{
+    text-decoration: none;
+}
+
+.nav-item:hover, a:hover{  
+    font-weight: bold;
+    display: block;
+    border-radius: 4px;
+
+}
+.nav-item, a:hover{
+    color: black;
+}
+#nav{
+    border-radius: 0px;
+}
+
+@font-face{
+    font-family: robotoMedium;
+    src: url("../roboto/Roboto-Medium.ttf");
+}
+
+@font-face{
+    font-family: robotoLight;
+    src: url(../roboto/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: robotoRegular;
+    src: url(../roboto/Roboto-Regular.ttf);
+}
+.navbar-nav li{
+   font-family: robotoMedium;
+   font-size: 1.2em;
+  
+}
+.line{
+    margin-top: -20px;
+}
+#footer{
+    padding: 10px;
+    border-top: 1px solid black;
+    color: #eeeeee;
+    background-color:  #211f22;
+    text-align: center; 
+}
+#content{
+    font-family: robotoLight;
+}
+#header{
+    font-family: robotoMedium;
+}
+/*.blogpost{*/
+    /*background-color: #ffffff;*/
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+    /*padding-top: 10px;*/
+    /*overflow: hidden;*/
+/*}*/
+#heading{
+    font-weight: bold;
+    color: #000000;
+}
+#heading:hover{
+    color: #0090DB;
+}
+@font-face{
+    font-family: robotoThin;
+    src: url(../roboto/Roboto-Thin.ttf);
+}
+/*.description{*/
+    /*!* color: #886688; *!*/
+    /*color: black;*/
+    /*font-weight: bold;*/
+    /*margin-top: 2px;*/
+    /*padding-left: 20px;*/
+    /*font-family: robotoThin;*/
+
+/*}*/
+.post{
+    font-size: 1.1em;
+    font-family: robotoLight;
+    text-align: justify;
+}
+.btn-info{
+    float: right;
+}
+.comment-block{
+    background-color: gray;
+    padding: 10px;
+    border-radius: 4px;
+}
+.comment-info{
+    color: #365899;
+    font-family: robotoLight;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+.comment{
+    margin-top: 2px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    font-size: 1.1em;
+}
+
+.imageicon {
+   width: 150px;
+   margin: 0 auto;
+   display: block;
+}
+.tableHeading{
+    background-color: #cc0099; 
+    border-top-right-radius: 8px; 
+    padding: 15px;
+    margin-top: 15px;
+    width: 45%;
+    color: white;
+}
